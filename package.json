@@ -1,0 +1,34 @@
+{
+  "name": "lichess-desktop",
+  "version": "0.1.0",
+  "description": "A desktop wrapper for Lichess.com.",
+  "main": "src/main.js",
+  "author": "Jonxslays",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "build": {
+    "appId": "org.lichess.desktop.3rd-party",
+    "mac": {
+      "category": "public.app-category.games",
+      "icon": "assets/chess-icon.png",
+      "target": "dmg"
+    },
+    "linux": {
+      "category": "Game",
+      "icon": "assets/chess-icon.png",
+      "target": "AppImage"
+    },
+    "win": {
+      "icon": "assets/chess-icon.png",
+      "target": "nsis"
+    }
+  },
+  "devDependencies": {
+    "electron": "^20.2.0",
+    "electron-builder": "^23.3.3"
+  }
+}
