@@ -1,6 +1,6 @@
 # lichess-desktop
 
-A desktop wrapper for Lichess.com.
+A desktop wrapper for [lichess.org](https://lichess.org).
 
 ## Getting started
 
@@ -25,7 +25,7 @@ $ yarn
 $ yarn start
 ```
 
-The application will start up and display Lichess.
+The application will start up and display [Lichess](https://lichess.org).
 
 ## Building an executable for your system
 
@@ -33,7 +33,7 @@ The application will start up and display Lichess.
 $ yarn build
 ```
 
-The executable will be stored in the build directory.
+The executable will be stored in the `./build` directory.
 
 - `.AppImage` for Linux
 - `.dmg` installer for Mac

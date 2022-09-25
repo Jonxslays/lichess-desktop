@@ -1,7 +1,7 @@
 {
   "name": "lichess-desktop",
   "version": "0.1.0",
-  "description": "A desktop wrapper for Lichess.com.",
+  "description": "A desktop wrapper for lichess.org.",
   "main": "src/main.js",
   "author": "Jonxslays",
   "license": "MIT",
